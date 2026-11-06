@@ -1,0 +1,30 @@
+{
+  "name": "countersign",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A settlement desk that pays an AI worker only when a second agent and a hard check agree.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "tsx --test lib/decision.test.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.24",
+    "@paypal/agent-toolkit": "^1.11.0",
+    "@paypal/react-paypal-js": "^8.9.2",
+    "ai": "^4.3.19",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
